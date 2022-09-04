@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="block">
+            <form name="form1" class="form">                              
+                    <label for="login" class="lbl-input">Login</label>                                              
+                    <input type="text" id="login" name="login" class="input" placeholder="Enter login" required> 
+                    <label for="pass" class="lbl-input">Password</label>
+                    <input type="password" id="pass" name="pass" class="input" placeholder="Enter password" required>                                                                                  
+                    <label for="email" class="lbl-input">Email address</label>
+                    <input type="text" id="email" name="email" class="input" placeholder="Enter email" required>                                    
+                    <input type="submit" id="add" value="Add User">                                
+                    <input type="submit" id="edit" class="hide" value="Edit User">
+            </form>
+        </div>
+        <div class="block">
+            <table id="table">
+                <tr>
+                    <th>#</th>
+                    <th>Login</th>
+                    <th>Password</th>
+                    <th>Email</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>            
+            </table>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
